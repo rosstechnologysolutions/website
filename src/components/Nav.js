@@ -23,6 +23,9 @@ export default function Nav() {
             <div className="logo">
                 <Logo />
             </div>
+            <div >
+
+            </div>
         </StyledNav>
     )
 }
