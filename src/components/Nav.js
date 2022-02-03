@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import NavButton from './NavButton';
 
 export const StyledNav = styled.nav`
     display: flex;
@@ -17,7 +18,7 @@ export const StyledNav = styled.nav`
             font-size: 2rem;
         }
         @media (max-width: ${({ theme }) => theme.mobile}) {
-            font-size: 1.5rem;
+            font-size: 1.75rem;
             width: 100vw;
             margin: 0;
             display: flex;
@@ -58,6 +59,7 @@ export const StyledNav = styled.nav`
 export default function Nav() {
     return (
         <StyledNav>
+            <NavButton />
             <div>
             <h1 className="companyName">
                 Ross Technology Solutions
