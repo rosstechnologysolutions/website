@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import Cloud1 from './Cloud1';
+import Cloud2 from './Cloud2';
 import Logo from '../assets/IconOrange.svg'
 import Nav from './Nav';
 
@@ -23,14 +25,6 @@ export const StyledHeader = styled.header`
         align-items: center;
         min-height: 50px;
         @media (max-width: ${({ theme }) => theme.mobile}) {
-            // height: 50px;
-            // width: 50px;
-            // position: absolute;
-            // margin: 28px 100px;
-            // display: flex;
-            // justify-content: center;
-            // align-items: center;
-            // min-height: 50px;
             display: none;
           }
     }
@@ -43,6 +37,8 @@ export default function Header() {
                 <Logo />
             </div>
             <Nav />
+            <Cloud1 />
+            <Cloud2 />
         </StyledHeader>
     )
 };
