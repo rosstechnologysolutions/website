@@ -9,7 +9,7 @@ import Helmet from 'react-helmet';
 
 const theme = {
   colors: {
-    header: '#0070f3',
+    primary: '#FA623D',
     secondary: "gray",
     body: '#fff',
     footer: '#003333',

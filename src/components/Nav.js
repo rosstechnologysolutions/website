@@ -1,30 +1,54 @@
 import React from 'react';
 import styled from 'styled-components';
-import Logo from '../assets/LogoIcon.svg'
 
 export const StyledNav = styled.nav`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     height: 100px;
+    color:  ${({ theme }) => theme.colors.primary };
 
-    .logo {
-        height: 120px;
-        width: 120px;
-        position: absolute;
-        margin: 10px 150px;
+    .companyName {
+        margin: 0 0 0 250px;
+    }
+
+    .navText {
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
-        min-height: 50px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color:  ${({ theme }) => theme.colors.primary };
+        padding: 10px;
+        &:hover {
+            color: white;
+            background:  ${({ theme }) => theme.colors.primary };
+            border-radius: 50px;
+        }
+    }
+
+    .linkButton {
+        margin: 0 50px 0;
     }
 `
 
 export default function Nav() {
     return (
         <StyledNav>
-            <div className="logo">
-                <Logo />
+            <div>
+            <h1 className="companyName">
+                Ross Technology Solutions
+            </h1>
             </div>
-            <div >
-
+            <div className="navText">
+                <h1 className="linkButton"><a href="/">Home</a></h1>
+                <h1 className="linkButton"><a href="/">Services</a></h1>
+                <h1 className="linkButton"><a href="/">Contact</a></h1>
             </div>
         </StyledNav>
     )
