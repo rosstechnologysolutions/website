@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Logo from '../assets/LogoIcon.svg'
+import Logo from '../assets/IconOrange.svg'
 import Nav from './Nav';
 
 
@@ -22,6 +22,17 @@ export const StyledHeader = styled.header`
         justify-content: center;
         align-items: center;
         min-height: 50px;
+        @media (max-width: ${({ theme }) => theme.mobile}) {
+            // height: 50px;
+            // width: 50px;
+            // position: absolute;
+            // margin: 28px 100px;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            // min-height: 50px;
+            display: none;
+          }
     }
 `
 
