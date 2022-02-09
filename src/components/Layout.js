@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyles from '../GlobalStyles';
 import { Container } from '../components/Container';
 import Header from '../components/Header';
+
 // import Footer from '../components/Footer';
 import PropTypes from "prop-types";
 import Helmet from 'react-helmet';

@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Cloud1 from './Cloud1';
-import Cloud2 from './Cloud2';
 import Logo from '../assets/IconOrange.svg'
 import Nav from './Nav';
 
@@ -37,8 +35,6 @@ export default function Header() {
                 <Logo />
             </div>
             <Nav />
-            <Cloud1 />
-            <Cloud2 />
         </StyledHeader>
     )
 };
