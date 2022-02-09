@@ -9,6 +9,7 @@ export const StyledHeader = styled.header`
     background: rgb(57,57,64);
     background: linear-gradient(180deg, rgba(57,57,64,1) 0%, rgba(21,21,68,0.48783263305322133) 100%, rgba(255,255,255,1) 100%);
     height: 100vh;
+    
 
     h1 {
         margin: 0;
@@ -32,9 +33,17 @@ export const StyledHeader = styled.header`
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
-        font-size: 5rem;
-        color:  ${({ theme }) => theme.colors.primary };
+
+
+        h1 {
+            font-size: 7rem;
+            color:  ${({ theme }) => theme.colors.primary };
+            @media (max-width: ${({ theme }) => theme.mobile}) {
+                font-size: 2rem;
+            }
+            position: absolute;
+            top: 50%;
+        }
     }
 `
 
@@ -45,7 +54,10 @@ export default function Header() {
                 <Logo />
             </div>
             <Nav />
-            <h1 className="tag-line">Making the Cloud Easy</h1>
+            <div className="tag-line">
+                <h1>Making the Cloud Easy</h1>
+            </div>
+
         </StyledHeader>
     )
 };

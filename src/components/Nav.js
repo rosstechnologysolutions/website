@@ -66,9 +66,9 @@ export default function Nav() {
             </h1>
             </div>
             <div className="navText">
-                <h1 className="linkButton"><a href="/">Home</a></h1>
-                <h1 className="linkButton"><a href="/">Services</a></h1>
-                <h1 className="linkButton"><a href="/">Contact</a></h1>
+                {/* <h1 className="linkButton"><a href="/">Home</a></h1>
+                <h1 className="linkButton"><a href="/">Services</a></h1> */}
+                <h1 className="linkButton"><a href="mailto:ryan@rosstechnologysolutions.com">Contact</a></h1>
             </div>
         </StyledNav>
     )
