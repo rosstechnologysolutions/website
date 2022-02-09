@@ -44,6 +44,28 @@ export const StyledHeader = styled.header`
             position: absolute;
             top: 50%;
         }
+        h2 {
+            font-size: 5rem;
+            color:  ${({ theme }) => theme.colors.primary };
+            @media (max-width: ${({ theme }) => theme.mobile}) {
+                font-size: 2rem;
+            }
+            position: absolute;
+            top: 65%;
+
+            a {
+                font-weight: 400;
+                text-decoration: none;
+                color: white;
+                background:  ${({ theme }) => theme.colors.primary };
+                border-radius: 100px;
+                padding: 10px 20px;
+                &:hover {
+                    background: white;
+                    color: ${({ theme }) => theme.colors.primary };
+                }
+            }
+        }
     }
 `
 
@@ -56,8 +78,8 @@ export default function Header() {
             <Nav />
             <div className="tag-line">
                 <h1>Making the Cloud Easy</h1>
+                <h2 className="linkButton"><a href="mailto:ryan@rosstechnologysolutions.com">Contact</a></h2>
             </div>
-
         </StyledHeader>
     )
 };
