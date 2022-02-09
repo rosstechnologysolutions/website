@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Logo from '../assets/IconOrange.svg'
 import Nav from './Nav';
+// import CallToAction from './CallToAction';
 
 
 export const StyledHeader = styled.header`
@@ -26,6 +27,15 @@ export const StyledHeader = styled.header`
             display: none;
           }
     }
+
+    .tag-line {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 5rem;
+        color:  ${({ theme }) => theme.colors.primary };
+    }
 `
 
 export default function Header() {
@@ -35,6 +45,7 @@ export default function Header() {
                 <Logo />
             </div>
             <Nav />
+            <h1 className="tag-line">Making the Cloud Easy</h1>
         </StyledHeader>
     )
 };
