@@ -7,11 +7,13 @@
   "keywords": [
     "gatsby"
   ],
+  "engines": {
+    "node": "<=14.15.0"
+  },
   "scripts": {
     "dev": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
+    "start": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
