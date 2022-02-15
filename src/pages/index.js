@@ -3,7 +3,8 @@ import Layout from '../components/Layout';
 import Helmet from 'react-helmet';
 import Services from '../components/Services';
 
-// markup
+// TODO: use parallax to move between sections
+
 const IndexPage = () => {
   return (
     <>
