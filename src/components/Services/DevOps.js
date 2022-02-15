@@ -24,12 +24,16 @@ export const StyledDevOps = styled.div`
     p {
         color: black;
         font-size: 1.1rem;
+        text-align: justify;
+        text-justify: inter-word;
+        padding: 10px;
     }
 
     .icon {
         height: 50%;
         color: gray;
         opacity: 0.6;
+        padding: 0 50px;
     }
 `
 
@@ -38,7 +42,7 @@ export default function DevOpsServices() {
         <StyledDevOps>
             <h2>DevOps Consulting</h2>
             <FontAwesomeIcon className="icon" icon={faUserCog}/>
-            <p>Adopting DevOps best pratices has become an industry standard, but also a buzzword. We'll help you estabilish practical tools and processes to be a high performing engineering organization without the hype.</p>
+            <p>Adopting DevOps best pratices has become an industry standard, but also a buzzword. Learn to establish practical tools and processes to be a high performing engineering organization without all of the hype.</p>
         </StyledDevOps>
     )
 };
