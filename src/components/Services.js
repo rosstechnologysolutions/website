@@ -4,12 +4,12 @@ import DevOpsServices from './Services/DevOps';
 
 export const StyledServices = styled.section`
 
-h1 {
-  color: ${({ theme }) => theme.colors.primary };
-  font-size: 4rem;
-  text-align: center;
-  margin: 0px; 20px 0px;
-}
+  h1 {
+    color: ${({ theme }) => theme.colors.primary };
+    font-size: 4rem;
+    text-align: center;
+    margin: 0px; 20px 0px;
+  }
 
 `
 

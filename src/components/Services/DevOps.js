@@ -13,6 +13,11 @@ export const StyledDevOps = styled.div`
     align-items: center;
     margin: 10px;
     max-width: 350px;
+    transition: all .2s ease-in-out;
+
+    :hover {
+        transform: scale(1.05);
+    }
 
     h2 {
         color: ${({ theme }) => theme.colors.primary };
