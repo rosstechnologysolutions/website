@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import NavButton from './NavButton';
+// import NavButton from './NavButton';
 
 export const StyledNav = styled.nav`
     display: flex;
@@ -59,7 +59,7 @@ export const StyledNav = styled.nav`
 export default function Nav() {
     return (
         <StyledNav>
-            <NavButton />
+            {/* <NavButton /> */}
             <div>
             <h1 className="companyName">
                 Ross Technology Solutions

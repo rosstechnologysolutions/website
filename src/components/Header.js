@@ -42,7 +42,7 @@ export const StyledHeader = styled.header`
                 font-size: 2rem;
             }
             position: absolute;
-            top: 50%;
+            top: 40%;
         }
         h2 {
             font-size: 5rem;
@@ -51,7 +51,7 @@ export const StyledHeader = styled.header`
                 font-size: 2rem;
             }
             position: absolute;
-            top: 65%;
+            top: 55%;
 
             a {
                 font-weight: 400;

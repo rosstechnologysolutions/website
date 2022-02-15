@@ -24,7 +24,6 @@ const GlobalStyles = createGlobalStyle`
 		opacity: 0.9;
 		line-height: 1.5;
 		-webkit-text-stroke: 0.1px black;
-		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	}
 
 	img {
