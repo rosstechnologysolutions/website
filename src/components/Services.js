@@ -16,7 +16,7 @@ h1 {
 export default function Services() {
   return (
     <StyledServices>
-      <h1>Serivces</h1>
+      <h1>Services</h1>
       <DevOpsServices />
     </StyledServices>
   );
