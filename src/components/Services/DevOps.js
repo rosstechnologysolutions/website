@@ -33,7 +33,7 @@ export const StyledDevOps = styled.div`
     }
 `
 
-export default function DevOpsServices(props) {
+export default function DevOpsServices() {
     return (
         <StyledDevOps>
             <h2>DevOps Consulting</h2>
