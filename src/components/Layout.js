@@ -16,7 +16,7 @@ const theme = {
     footer: '#003333',
   },
   tablet: '1400px',
-  mobile: '1000px',
+  mobile: '1100px',
 }
 
 // markup

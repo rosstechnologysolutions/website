@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { faUserCog } from "@fortawesome/free-solid-svg-icons";
+import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const StyledDevOps = styled.div`
+export const ScytledCNCFLandscape = styled.div`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     padding: 10px;
@@ -35,19 +35,19 @@ export const StyledDevOps = styled.div`
     }
 
     .icon {
-        height: 40%;
+        height: 35%;
         color: gray;
         opacity: 0.6;
-        padding: 0 35px 10px;
+        padding: 0 50px;
     }
 `
 
-export default function DevOpsServices() {
+export default function CNCFLandscapeServices() {
     return (
-        <StyledDevOps>
-            <h2>DevOps Consulting</h2>
-            <FontAwesomeIcon className="icon" icon={faUserCog}/>
-            <p>Adopting DevOps best pratices has become an industry standard, but also a buzzword. Learn to establish practical tools and processes to be a high performing engineering organization without all of the hype.</p>
-        </StyledDevOps>
+        <ScytledCNCFLandscape>
+            <h2>Navigate the CNCF Landscape</h2>
+            <FontAwesomeIcon className="icon" icon={faMapLocationDot}/>
+            <p>The CNCF Landscape is vast and can be confusing. Get advise on its open-source project ecosystem and what projects will fit your organization.</p>
+        </ScytledCNCFLandscape>
     )
 };

@@ -24,6 +24,7 @@ export const StyledHeader = styled.header`
         justify-content: center;
         align-items: center;
         min-height: 50px;
+        -shadow: 0 1px 5px black;
         @media (max-width: ${({ theme }) => theme.mobile}) {
             display: none;
           }
@@ -36,13 +37,14 @@ export const StyledHeader = styled.header`
 
 
         h1 {
-            font-size: 7rem;
+            font-size: 6.6rem;
             color:  ${({ theme }) => theme.colors.primary };
             @media (max-width: ${({ theme }) => theme.mobile}) {
                 font-size: 2rem;
             }
             position: absolute;
             top: 40%;
+            text-shadow: 0 1px 5px black;
         }
         h2 {
             font-size: 5rem;
