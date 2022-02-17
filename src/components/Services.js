@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import DevOpsServices from './Services/DevOps';
-import CNCFLandscapeServices from './Services/CNCFLandscape';
+// import CNCFLandscapeServices from './Services/CNCFLandscape';
 
 
 export const StyledServices = styled.section`
@@ -15,6 +15,7 @@ export const StyledServices = styled.section`
       flex-direction: column;
       align-items: center;
     }
+    width: 100%;
   }
 
   h1 {
@@ -22,7 +23,7 @@ export const StyledServices = styled.section`
     font-size: 4rem;
     text-align: center;
     margin: 0px; 20px 0px;
-    text-shadow: 0 1px 3px black;
+    // text-shadow: 0 1px 1px black;
   }
 
 `
@@ -33,7 +34,7 @@ export default function Services() {
       <h1>Services</h1>
       <div className="service-cards">
         <DevOpsServices />
-        <CNCFLandscapeServices />
+        {/* <CNCFLandscapeServices /> */}
       </div>
     </StyledServices>
   );

@@ -4,6 +4,7 @@ const GlobalStyles = createGlobalStyle`
 	@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100;300;400;600;700&display=swap');
 
 	* {
+		// border: 1px solid red;
 		font-family: 'Roboto', sans-serif;
 		box-sizing: border-box;
 	}

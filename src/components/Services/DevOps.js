@@ -5,19 +5,23 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const StyledDevOps = styled.div`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
-    width: 80%
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10px;
-    max-width: 350px;
+    width: 350px;
     transition: all .2s ease-in-out;
 
-    :hover {
-        transform: scale(1.05);
-    }
+    @media(min-width: ${({ theme }) => theme.mobile }) {
+        :hover {
+            transform: scale(1.05);
+        }
+      }
+
+
 
     h2 {
         color: ${({ theme }) => theme.colors.primary };
@@ -34,19 +38,26 @@ export const StyledDevOps = styled.div`
         padding: 10px;
     }
 
-    .icon {
-        height: 40%;
-        color: gray;
-        opacity: 0.6;
-        padding: 0 35px 10px;
+    .icon-box {
+        height: 50%;
+        width: 100%;
+        .icon {
+            height: 100%;
+            width: 100%;
+            color: gray;
+            opacity: 0.6;
+        }
     }
+
 `
 
 export default function DevOpsServices() {
     return (
         <StyledDevOps>
             <h2>DevOps Consulting</h2>
-            <FontAwesomeIcon className="icon" icon={faUserCog}/>
+            <div className="icon-box">
+                <FontAwesomeIcon className="icon" icon={faUserCog}/>
+            </div>
             <p>Adopting DevOps best pratices has become an industry standard, but also a buzzword. Learn to establish practical tools and processes to be a high performing engineering organization without all of the hype.</p>
         </StyledDevOps>
     )
