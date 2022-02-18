@@ -12,18 +12,20 @@ export const StyledServices = styled.section`
   .service-cards {
     display: flex;
     flex-direction: row;
+    width: 100%;
     @media(max-width: ${({ theme }) => theme.mobile }) {
       flex-direction: column;
       align-items: center;
     }
-    width: 100%;
   }
 
   h1 {
     color: ${({ theme }) => theme.colors.primary };
     font-size: 4rem;
+    font-weight: 500;
     text-align: center;
     margin: 0px; 20px 0px;
+    text-shadow: 1px 1px black;
   }
 
 `
