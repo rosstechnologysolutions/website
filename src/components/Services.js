@@ -23,7 +23,6 @@ export const StyledServices = styled.section`
     font-size: 4rem;
     text-align: center;
     margin: 0px; 20px 0px;
-    // text-shadow: 0 1px 1px black;
   }
 
 `
