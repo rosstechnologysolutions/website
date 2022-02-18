@@ -16,6 +16,16 @@ module.exports = {
         }
       },
       {
+        resolve: 'gatsby-plugin-robots-txt',
+        options: {
+          host: 'https://www.rosstechnologysolutions.com',
+          policy: [{userAgent: '*', allow: '/'}]
+        }
+      },
+      {
+        resolve: `gatsby-plugin-sitemap`,
+      },
+      {
         resolve: `gatsby-plugin-manifest`,
         options: {
           // name: "GatsbyJS",
