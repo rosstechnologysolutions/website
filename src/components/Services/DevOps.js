@@ -39,8 +39,9 @@ export const StyledDevOps = styled.div`
     }
 
     .icon-box {
-        height: 50%;
-        width: 100%;
+        height: 260px;
+        width: 330px;
+
         .icon {
             height: 100%;
             width: 100%;

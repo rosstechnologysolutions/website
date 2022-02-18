@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import DevOpsServices from './Services/DevOps';
-// import CNCFLandscapeServices from './Services/CNCFLandscape';
+import CNCFLandscapeServices from './Services/CNCFLandscape';
 
 
 export const StyledServices = styled.section`
@@ -33,7 +33,7 @@ export default function Services() {
       <h1>Services</h1>
       <div className="service-cards">
         <DevOpsServices />
-        {/* <CNCFLandscapeServices /> */}
+        <CNCFLandscapeServices />
       </div>
     </StyledServices>
   );

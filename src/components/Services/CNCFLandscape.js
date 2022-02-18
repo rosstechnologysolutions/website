@@ -3,21 +3,25 @@ import styled from 'styled-components';
 import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const ScytledCNCFLandscape = styled.div`
+export const StyledDevOps = styled.div`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
-    width: 80%
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10px;
-    max-width: 350px;
+    width: 350px;
     transition: all .2s ease-in-out;
 
-    :hover {
-        transform: scale(1.05);
-    }
+    @media(min-width: ${({ theme }) => theme.mobile }) {
+        :hover {
+            transform: scale(1.05);
+        }
+      }
+
+
 
     h2 {
         color: ${({ theme }) => theme.colors.primary };
@@ -34,20 +38,27 @@ export const ScytledCNCFLandscape = styled.div`
         padding: 10px;
     }
 
-    .icon {
-        height: 35%;
-        color: gray;
-        opacity: 0.6;
-        padding: 0 50px;
+    .icon-box {
+        height: 260px;
+        width: 330px;
+        .icon {
+            height: 100%;
+            width: 100%;
+            color: gray;
+            opacity: 0.6;
+        }
     }
+
 `
 
-export default function CNCFLandscapeServices() {
+export default function DevOpsServices() {
     return (
-        <ScytledCNCFLandscape>
-            <h2>Navigate the CNCF Landscape</h2>
-            <FontAwesomeIcon className="icon" icon={faMapLocationDot}/>
-            <p>The CNCF Landscape is vast and can be confusing. Get advise on its open-source project ecosystem and what projects will fit your organization.</p>
-        </ScytledCNCFLandscape>
+        <StyledDevOps>
+            <h2>Navigate Open Source</h2>
+            <div className="icon-box">
+                <FontAwesomeIcon className="icon" icon={faMapLocationDot}/>
+            </div>
+            <p>The CNCF Landscape is vast and can be confusing. Get advise on its open-source project ecosystem and what projects will fit your organization from Kubernetes and Prometheus to Argo and more.</p>
+        </StyledDevOps>
     )
 };
