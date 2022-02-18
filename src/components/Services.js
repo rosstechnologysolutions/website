@@ -8,8 +8,6 @@ import CloudMigrationServices from './Services/CloudMigration';
 
 export const StyledServices = styled.section`
 
-  margin-bottom: 100px;
-
   .service-cards {
     display: flex;
     flex-direction: row;
