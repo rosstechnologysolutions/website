@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-      title: `website`,
-        siteUrl: `https://www.yourdomain.tld`,
+      title: `Ross Technology Solutions`,
+        siteUrl: `https://www.rosstechnologysolutions.com`,
     },
     plugins: [
       {
