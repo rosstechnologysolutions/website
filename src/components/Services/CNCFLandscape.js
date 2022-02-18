@@ -58,7 +58,7 @@ export default function DevOpsServices() {
             <div className="icon-box">
                 <FontAwesomeIcon className="icon" icon={faMapLocationDot}/>
             </div>
-            <p>The CNCF Landscape is vast and can be confusing. Get advise on its open-source project ecosystem and what projects will fit your organization from Kubernetes and Prometheus to Argo and more.</p>
+            <p>The CNCF Landscape is vast and can be confusing. Get directions on its open source project ecosystem and what projects will fit your organization from Kubernetes and Prometheus to Argo, Linkerd, and more.</p>
         </StyledDevOps>
     )
 };

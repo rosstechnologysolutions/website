@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import DevOpsServices from './Services/DevOps';
 import CNCFLandscapeServices from './Services/CNCFLandscape';
+import CloudMigrationServices from './Services/CloudMigration';
+
 
 
 export const StyledServices = styled.section`
@@ -34,6 +36,7 @@ export default function Services() {
       <div className="service-cards">
         <DevOpsServices />
         <CNCFLandscapeServices />
+        <CloudMigrationServices />
       </div>
     </StyledServices>
   );
