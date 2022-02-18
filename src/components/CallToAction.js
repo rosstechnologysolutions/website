@@ -29,6 +29,9 @@ export const StyledCallToAction = styled.section`
         @media (max-width: ${({ theme }) => theme.mobile}) {
             font-size: 1.3rem;
         }
+        &:hover {
+            filter: brightness(95%);
+        }
 
         a {
             font-weight: 400;
@@ -37,9 +40,6 @@ export const StyledCallToAction = styled.section`
             background:  ${({ theme }) => theme.colors.primary };
             border-radius: 100px;
             padding: 10px 20px;
-            &:hover {
-                opacity: 0.7;
-            }
         }
     }
 
