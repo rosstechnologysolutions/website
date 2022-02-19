@@ -34,6 +34,14 @@ export const StyledHeader = styled.header`
         display: flex;
         align-items: center;
         justify-content: center;
+        // this is what I want, but breaks the nav company name.
+    //     animation: fadeIn linear 1s;
+    //   }
+      
+    //   @keyframes fadeIn {
+    //     0% {opacity:0;}
+    //     100% {opacity:1;}
+    //   }
 
 
         h1 {
