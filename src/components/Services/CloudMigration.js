@@ -59,7 +59,7 @@ export default function CloudMigrationServices() {
             <div className="icon-box">
                 <FontAwesomeIcon className="icon" icon={faCloudArrowUp}/>
             </div>
-            <p>Lift and shift never worked for migrating on-premisis workloads to the Cloud. Expert help is here to level up your cloud migration that will save costs, while increasing performance and release velocity.</p>
+            <p>Lift and shift never worked for migrating on-premisesgi  workloads to the Cloud. Expert help is here to level up your cloud migration that will save costs, while increasing performance and release velocity.</p>
         </StyledDevOps>
     )
 };

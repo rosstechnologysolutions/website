@@ -87,7 +87,7 @@ export default function Header() {
             </div>
             <Nav />
             <div className="tag-line">
-                <h1>Making the Cloud Easy</h1>
+                <h1>Make Cloud Adoption Easy</h1>
                 <h2 className="linkButton"><a href="mailto:ryan@rosstechnologysolutions.com">Contact</a></h2>
             </div>
         </StyledHeader>
