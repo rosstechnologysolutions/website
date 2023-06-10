@@ -11,7 +11,7 @@ module.exports = {
       dracula: {
         ...require("daisyui/src/theming/themes")["[data-theme=dracula]"],
         ".text-rts-orange": {
-          "text-color": "#FA623D"},
+          "color": "#FA623D"},
       }}],
   },
 }
