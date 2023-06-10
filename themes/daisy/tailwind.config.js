@@ -7,7 +7,12 @@ module.exports = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["dracula"],
+    themes: [{
+      dracula: {
+        ...require("daisyui/src/theming/themes")["[data-theme=dracula]"],
+        ".text-rts-orange": {
+          "text-color": "#FA623D"},
+      }}],
   },
 }
 

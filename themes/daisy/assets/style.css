@@ -470,6 +470,10 @@ html {
   --er: 0 100% 67%;
 }
 
+:root .text-rts-orange {
+  text-color: #FA623D;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
