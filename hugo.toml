@@ -2,3 +2,4 @@ baseURL = 'http://rosstechnologysolutions.com/'
 languageCode = 'en-us'
 title = 'Ross Technology Solutions'
 theme = 'daisy'
+enableRobotsTXT = true
