@@ -1,4 +1,4 @@
-baseURL = 'http://starfish-app-dg39x.ondigitalocean.app'
+baseURL = 'https://starfish-app-dg39x.ondigitalocean.app'
 languageCode = 'en-us'
 title = 'Ross Technology Solutions'
 theme = 'daisy'
