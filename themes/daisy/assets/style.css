@@ -1356,6 +1356,14 @@ html {
   visibility: hidden;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
 .sticky {
   position: sticky;
 }
@@ -1384,12 +1392,28 @@ html {
   display: flex;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .w-96 {
   width: 24rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-lg {
