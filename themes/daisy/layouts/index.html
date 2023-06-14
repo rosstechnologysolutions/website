@@ -1,5 +1,7 @@
 {{ define "main" }}
 <html data-theme="dracula">
+
+    <!-- HOME SECTION -->
     <section id="home">
         <!-- link to image source - https://pixabay.com/illustrations/network-cloud-computing-data-4851119/ -->
         <div class="hero min-h-screen" style="background-image: url(hero-network.webp);">
@@ -8,12 +10,13 @@
             <div class="max-w-lg">
                 <h1 class="mb-5 text-5xl font-bold text-accent">Ross Technology Solutions</h1>
                 <p class="mb-5 text-2xl">Make Cloud Adoption Easy</p>
-                <a href="mailto:ryan@rosstechnologysolutions.com"><button class="btn btn-primary">Email Us</button></a>
+                <a href="mailto:ryan@rosstechnologysolutions.com"><button class="btn btn-primary">Email</button></a>
             </div>
             </div>
         </div>
     </section>
 
+    <!-- SERVICES SECTION -->
     <section>
         <div id="services">
             <h1 class="text-center text-3xl font-bold text-accent py-4">Services</h1>
@@ -58,11 +61,33 @@
         </div>
     </section>
 
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="bg-neutral w-screen">
+            <div class="container mx-auto">
+                <h1 class="text-center text-3xl font-bold text-accent py-4">About</h1>
+                <div class="flex flex-col sm:flex-row items-center">
+                    <div class="avatar p-4">
+                        <div class="w-24 rounded-full ring ring-info ring-offset-base-100 ring-offset-2">
+                          <img alt="picture of ryan ross" src="ryanross.webp" />
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-center text-info text-xl sm:text-left p-4">Hey there. I'm Ryan.</p>
+                        <p class="text-center sm:text-left p-4">I work by day as a Senior Site Reliability Engineer for a software as a service company. I focus on obserability and reliability of distributed systems built on Kubernetes. I work with: Kubernetes, Terraform, Helm, ArgoCD, Datadog, PagerDuty, Istio, and Calico, to name a few. </p>
+                        <p class="text-center sm:text-left p-4">By night and off hours I work as an IT consultant. I have been working with technology for almost a decade. From building gaming computers and racking and stacking servers in a datacenter for a supercomputer to building, automating, and running applications at massive scale in Kubernetes, I've seen a lot. I can draw on my diverse experience from hardware to software and things in between to help your business with your next technology project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <section>
         <div id="contact" class="bg-neutral-focus flex flex-row flex-wrap items-center justify-center">
             <div class="flex flex-col md:flex-row items-center">
                 <h1 class="text-center text-3xl font-bold text-accent m-4">Ready to Make Cloud Adoption Easy?</h1>
-                <a href="mailto:ryan@rosstechnologysolutions.com"><button class="btn btn-primary m-4 justify-center">Email Us</button></a>
+                <a href="mailto:ryan@rosstechnologysolutions.com"><button class="btn btn-primary m-4 justify-center">Email</button></a>
             </div>
     </section>
 </html>
