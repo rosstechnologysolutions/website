@@ -1352,6 +1352,10 @@ html {
   content: none;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .absolute {
   position: absolute;
 }
@@ -1534,6 +1538,12 @@ html {
 .text-neutral-content {
   --tw-text-opacity: 1;
   color: hsl(var(--nc) / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:visible {
+    visibility: visible;
+  }
 }
 
 @media (min-width: 768px) {
