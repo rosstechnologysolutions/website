@@ -3,3 +3,11 @@ languageCode = 'en-us'
 title = 'Ross Technology Solutions'
 theme = 'daisy'
 enableRobotsTXT = true
+
+[params]
+  description = 'Ross Technology Solutions is an IT consulting company focusing on making cloud adoption easy. They can help move workloads to the cloud to increase reliability and save costs or can build custom software and automation across a wide array of use cases.'
+
+
+[markup.goldmark.parser.attribute]
+  block = true
+  title = true
